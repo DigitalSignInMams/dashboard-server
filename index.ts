@@ -7,7 +7,7 @@ const bodyParser = require('body-parser')
 app.use(bodyParser.json()) // allows us to take in JSON in post body
 app.use(cors()); // allows localhost to communicate with server
 
-const db = require("./db.js")
+const db = require("./db.ts")
 
 ////////////////////// ENDPOINTS
 
